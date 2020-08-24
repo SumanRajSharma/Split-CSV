@@ -11,11 +11,6 @@ splitCSV.py is a `python script` that basically allows `Data Analysts` to split 
 
 Function: main is a method that splits the xlxs file to multiple CSVs based on provided row size.
 
-#### Variables: 
-1. `filename` - filepath/name of a Excel file. Eg: '~/Desktop/test.xlsx' Or if file is in same path as this script simply 'test.xlsx'
-2. `rowsize` - size of a row you want to split the Excel file to create multiple CSVs.  
-3. `output_file_prefix` - output file prefix. Eg. If you provide 'result' then file name will be result_1.csv, result_2.csv ... 
-    
 #### Steps:
 1. Load Excel file and create a dataframe using python library pandas
 2. Split the dataframe to list/array of dataframes based on the row size you provided
@@ -25,10 +20,13 @@ All the CSVs are saved inside Output folder.
 
 ## Running splitCSV.py
 
-To install <project_name>, follow these steps:
+#### Variables: 
+1. `filename` - filepath/name of a Excel file. Eg: '~/Desktop/test.xlsx' Or if file is in same path as this script simply 'test.xlsx'
+2. `rowsize` - size of a row you want to split the Excel file to create multiple CSVs.  
+3. `output_filename_prefix` - output file prefix. Eg. If you provide 'result' then file name will be result_1.csv, result_2.csv ... 
 
 ```
-python3 <script_name> <Excel_file_path> <Filename_prefix>
+python3 <filename> <rpwsize> <output_filename_prefix>
 ```
 Example:
 ```
