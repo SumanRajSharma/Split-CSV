@@ -7,7 +7,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/sumanrajsharma/splitCSV?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/sumanrajsharma?style=social)
 
-splitCSV.py is a `<python script>` that basically allows `<Data Analysts>` to split large CSVs based on provided row size. 
+splitCSV.py is a `python script` that basically allows `Data Analysts` to split large CSVs based on provided row size. 
 
 Function: main is a method that splits the xlxs file to multiple CSVs based on provided row size.
 Variables: 
