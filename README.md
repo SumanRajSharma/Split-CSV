@@ -23,36 +23,17 @@ Function: main is a method that splits the xlxs file to multiple CSVs based on p
     
 All the CSVs are saved inside Output folder.
 
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
-
-## Installing <project_name>
+## Running splitCSV.py
 
 To install <project_name>, follow these steps:
 
-Linux and macOS:
 ```
-<install_command>
+python3 <script_name> <Excel_file_path> <Filename_prefix>
 ```
-
-Windows:
+Example:
 ```
-<install_command>
+python3 splitCSV.py test.xlsx 1000 sub_file
 ```
-## Using <project_name>
-
-To use <project_name>, follow these steps:
-
-```
-<usage_example>
-```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
 
 ## Contact
